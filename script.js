@@ -90,3 +90,5 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.14 });
 
 reveals.forEach(el => io.observe(el));
+
+// ===== Fim do script =====
